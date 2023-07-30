@@ -35,6 +35,7 @@ const Home = () => {
       </Typography>
       <Button variant="contained" color="primary" size="large" sx={{ mt: 4 }}>
         Get Started
+
       </Button>
       <Typography variant="h6" sx={{ mt: 4 }}>
         We offer the following services:
@@ -46,8 +47,13 @@ const Home = () => {
         <About />
       </Box>
       <Box>
-        <Review  review="Vintage Dispatch has been a game-changer for our business. Their dispatch services are efficient and reliable, and their team is always responsive to our needs. We highly recommend them!"
-          clientName="John Doe" />
+        <Review review="Vintage Dispatch has been a game-changer for our business. Their dispatch services are efficient and reliable, and their team is always responsive to our needs. We highly recommend them!"
+          clientName="John Doe" 
+        />
+          
+          
+
+           
       </Box>
       
       

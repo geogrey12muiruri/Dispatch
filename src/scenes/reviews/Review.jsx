@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
@@ -24,15 +24,18 @@ const Review = ({ review, clientName, clientLocation }) => {
       <div style={{ height: '300px', marginTop: '20px' }}>
         <iframe
           title="Client Location"
-          width="100%"
+          width="150%"
           height="100%"
           frameBorder="0"
           style={{ border: 0 }}
-          src={`https://www.google.com/maps/embed/v1/place?q=${encodeURIComponent(
-            clientLocation
-          )}&key=AIzaSyBYiVouwbVCplF9R70xGXuBderQDtgG4cg`}
-          allowFullScreen
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.790495299438!2d36.782159473848196!3d-1.30055879868709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f109dcb26a413%3A0xca1c503989df391d!2sNgong%20Lane%20Plaza!5e0!3m2!1sen!2ske!4v1690687100671!5m2!1sen!2ske" 
+           allowfullscreen="" 
+           loading="lazy" 
         ></iframe>
+        
+           
+        
+           
       </div>
     </Box>
   );

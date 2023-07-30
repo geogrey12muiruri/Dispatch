@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Box from '@mui/material/Box';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
@@ -11,7 +11,7 @@ const Navbar = () => {
         <Toolbar>
           <Typography variant="h1" sx={{ flexGrow: 1, textAlign: 'center' }}>
             <a href="/" style={{ textDecoration: 'none', color: '#fff' }}>
-              Dispatch Service
+              Vintage Dispatch 
             </a>
           </Typography>
         </Toolbar>
