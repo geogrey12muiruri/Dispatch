@@ -4,6 +4,9 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
+// Import the image assets for each service
+
+
 const Service = ({ services }) => {
   return (
     <Box sx={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap', backgroundColor: '#f5f5f5', p: 3 }}>

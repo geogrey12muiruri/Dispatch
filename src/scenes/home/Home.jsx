@@ -2,7 +2,7 @@
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import Service from '../services/Service'; // Assuming the correct path to the Service component
+import Service from '../servicefolder/Service'; // Assuming the correct path to the Service component
 import About from '../about/About'; // Assuming the correct path to the About component
 import Review from '../reviews/Review'; // Assuming the correct path to the Review component
 import Dialog from '@mui/material/Dialog';
